@@ -1,28 +1,15 @@
-# CineTracker Web (React + Router + Tailwind)
+CineTracker - Frontend
 
-Cumple el enunciado:
-- React + Router (mín. 5 vistas)
-- Componentes
-- Consume tu API propia (login + listas)
-- Consume API externa (TMDB)
-- Framework CSS: Tailwind
+Este es el frontend del proyecto. Se conecta al backend para poder registrarse e iniciar sesión.
 
-## Arranque
-1. Copia `.env.example` a `.env`
-2. Instala dependencias:
-   ```bash
-   npm install
-   ```
-3. Ejecuta:
-   ```bash
-   npm run dev
-   ```
+La idea era practicar cómo hacer un proyecto separado en front y back y que se comuniquen entre ellos.
 
-## Vistas
-- `/` Home
-- `/trending`
-- `/search`
-- `/detail/:type/:id`
-- `/login`
-- `/lists` (protegida)
-- `/lists/:id` (protegida)
+Para ejecutarlo:
+
+1. npm install
+2. npm run dev
+
+Se abre en el navegador en algo como:
+http://localhost:5173
+
+Al principio me dio algún fallo al conectar con el backend, pero revisando la URL y el .env terminó funcionando bien.
