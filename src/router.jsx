@@ -11,6 +11,7 @@ import { Detail } from './pages/Detail'
 import { Login } from './pages/Login'
 import { MyLists } from './pages/MyLists'
 import { ListDetail } from './pages/ListDetail'
+import ExternalApi from "./pages/ExternalApi";
 
 export const router = createBrowserRouter([
   {
@@ -19,6 +20,7 @@ export const router = createBrowserRouter([
       { path: '/', element: <Home /> },
       { path: '/trending', element: <Trending /> },
       { path: '/search', element: <Search /> },
+      { path: "/external", element: <ExternalApi /> },
       { path: '/detail/:type/:id', element: <Detail /> },
       { path: '/login', element: <Login /> },
       {
